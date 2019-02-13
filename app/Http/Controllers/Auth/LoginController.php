@@ -26,6 +26,12 @@ class LoginController extends Controller
      * @var string
      */
 
+<<<<<<< HEAD
+=======
+    protected $redirectTo = '/home';
+
+   
+>>>>>>> vidio eps 10
 
     /**
      * Create a new controller instance.
@@ -37,6 +43,10 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> vidio eps 10
     
     protected function redirectTo()
     {

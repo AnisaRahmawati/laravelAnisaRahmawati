@@ -26,6 +26,13 @@ class ResetPasswordController extends Controller
      * @var string
      */
 
+<<<<<<< HEAD
+=======
+    protected $redirectTo = '/home';
+
+    
+
+>>>>>>> vidio eps 10
 
     /**
      * Create a new controller instance.
@@ -38,6 +45,10 @@ class ResetPasswordController extends Controller
     }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> vidio eps 10
      protected function redirectTo()
     {
         return route('admin.home');

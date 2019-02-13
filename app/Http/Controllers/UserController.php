@@ -7,12 +7,17 @@ use App\User;
 use Auth;
 
 class UserController extends Controller
+<<<<<<< HEAD
+=======
+
+>>>>>>> vidio eps 10
 {
     public function daftar(Request $req)
     {
     	$data = User::where('name','like',"%{$req->keyword}%")->paginate(10);
     	return view('admin.pages.user.daftar',['data'=>$data]);
     }
+<<<<<<< HEAD
 
     public function add()
     {
@@ -40,4 +45,6 @@ if($result->save()){
         return back()->with('result','fail')->withInput();
     }
 }
+=======
+>>>>>>> vidio eps 10
 }
