@@ -25,6 +25,11 @@ class LoginController extends Controller
      *
      * @var string
      */
+
+
+    protected $redirectTo = '/home';
+
+
    
 
     /**
@@ -36,9 +41,11 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
     
     protected function redirectTo()
     {
         return route('admin.home');
     }
+
 }
