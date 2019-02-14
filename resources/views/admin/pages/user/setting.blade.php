@@ -1,28 +1,22 @@
 @extends('admin.main')
 @section('title','User Setting')
 @section('content')
-
-<h1>User Setting</h1>
-<hr>
 <h1>User</h1>
 <hr>
 
 @if(session('result') == 'success')
 <div class="alert alert-success alert-dismissiable fade show">
 	<strong>Updated !</strong>Berhasil di Update.
-	<button type="button" class="close" data-dismiss="alert">
-		&times;
+	<button type="button" class="close" data-dismiss="alert">&times;
 	</button>
 	</div>
 @elseif(session('result') == 'fail')
 	<div class="alert alert-danger alert-dismissiable fade show">
 	<strong>Failed !</strong>Gagal di Update.
-	<button type="button" class="close" data-dismiss="alert">
-		&times;
+	<button type="button" class="close" data-dismiss="alert">&times;
 	</button>
 	</div>
 	@endif
-
 <div class="row">
 	<div class="col-md-6">
 		<form method="post" action="{{ route('admin.user.setting') }}">
@@ -34,8 +28,9 @@
 					<div class="form-group form-label-group">
 						<input type="text" name="name"
 						class="form-control {{$errors->has('name')?'is-invalid':''}}"
-						value="{{ old('name',$dt->name) }}"
+						value="{{ old('name',$dt->name) }}" 
 						id="iName" placeholder="Name" required>
+
 						<label for="iName">Name</label>
 						@if($errors->has('name'))
 						<div class="invalid-feedback">{{$errors->first('name')}}</div>
@@ -47,6 +42,7 @@
 						class="form-control {{$errors->has('email')?'is-invalid':''}}"
 						value="{{ old('email',$dt->email)}}"
 						id="iName" placeholder="Name" required>
+						
 						<label for="iEmail">Email</label>
 						@if($errors->has('email'))
 						<div class="invalid-feedback">{{$errors->first('email')}}</div>

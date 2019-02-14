@@ -7,7 +7,6 @@ use App\User;
 use Auth;
 
 class UserController extends Controller
-
 {
     public function daftar(Request $req)
     {

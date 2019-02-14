@@ -27,12 +27,6 @@ class ResetPasswordController extends Controller
      */
 
 
-    protected $redirectTo = '/home';
-
-    
-
-
->>>>>>> vidio eps 10
     /**
      * Create a new controller instance.
      *
