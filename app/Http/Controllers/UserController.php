@@ -27,6 +27,28 @@ class UserController extends Controller
             'repassword'=>'required|same:password',
             'akses'=>'required',
         ])->validate();
-    	return 'Fungsi Save';
+    	
+$result = new User;
+$result->name = $req->name;
+$result->email = $req->email;
+$result->password = bcrypt($req->password);
+$result->akses = $req->akses;
+
+if($result->save()){
+    return redirect()->route('admin.user')->with('result','success');
+    } else {
+        return back()->with('result','fail')->withInput();
+    }
+}
+
+    public function edit($id)
+    {
+        $data = User::where('id',$id)->first();
+        return view('admin.pages.user.edit',['rc'=>$data]);
+    }
+
+    public function update(Request $req)
+    {
+        return 'Fungsi Update';
     }
 }
