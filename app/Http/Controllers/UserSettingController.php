@@ -11,7 +11,12 @@ class UserSettingController extends Controller
     public function form()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $data = User::where('id',Auth::id())->first();
+=======
+
+    	$data = User::where('id' ,Auth::id())->first();
+>>>>>>> vidio eps 10
 =======
 
     	$data = User::where('id' ,Auth::id())->first();
@@ -24,7 +29,11 @@ class UserSettingController extends Controller
     	$id = Auth::id();
     	\Validator::make($req->all(), [
 <<<<<<< HEAD
+<<<<<<< HEAD
     		'name'=>'required|between:3,100',
+=======
+    		'name'=>'required|between:3,10',
+>>>>>>> vidio eps 10
 =======
     		'name'=>'required|between:3,10',
 >>>>>>> vidio eps 10
@@ -52,7 +61,10 @@ class UserSettingController extends Controller
             return back()->with('result','success');
         } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
             
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
             return back()->with('result','fail');

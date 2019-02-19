@@ -6,9 +6,12 @@
           </a>
         </li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
         @if(Auth::user()->akses == 'admin')
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
          <li class="nav-item">
@@ -18,8 +21,11 @@
           </a>
         </li>
 <<<<<<< HEAD
+<<<<<<< HEAD
         @endif
 
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
       </ul>
