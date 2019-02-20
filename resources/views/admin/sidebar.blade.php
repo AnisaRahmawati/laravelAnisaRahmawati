@@ -7,9 +7,12 @@
         </li>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
         @if(Auth::user()->akses == 'admin')
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
@@ -22,8 +25,11 @@
         </li>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         @endif
 
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======

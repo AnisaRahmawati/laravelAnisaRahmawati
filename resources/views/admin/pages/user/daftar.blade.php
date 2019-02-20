@@ -5,6 +5,7 @@
 <hr>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 @if(session('result') == 'success')
 <div class="alert alert-success alert-dismissible fade show">
@@ -18,6 +19,11 @@
 <div class="row">
 	<div class="col-md-6 mb-3">
 		<a href="{{ route('admin.user.add')}}" class="btn btn-primary">[+] Tambah</a>
+=======
+<div class="row">
+	<div class="col-md-6 mb-3">
+		<a href="#" class="btn btn-primary">[+] Tambah</a>
+>>>>>>> vidio eps 10
 =======
 <div class="row">
 	<div class="col-md-6 mb-3">
@@ -56,7 +62,11 @@
 	<tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<th>Name</th><th>Email</th><th>Akses</th><th>&nbsp;</th>
+=======
+		<th>Name</th><th>Email</th><th>&nbsp;</th>
+>>>>>>> vidio eps 10
 =======
 		<th>Name</th><th>Email</th><th>&nbsp;</th>
 >>>>>>> vidio eps 10
@@ -70,7 +80,10 @@
 		<td>{{ $dt->email}}</td>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<td>{{ $dt->akses}}</td>
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======

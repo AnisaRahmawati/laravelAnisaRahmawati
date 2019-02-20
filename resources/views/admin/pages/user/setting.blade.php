@@ -9,7 +9,12 @@
 	<strong>Updated !</strong>Berhasil di Update.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<button type="button" class="close" data-dismiss="alert">&times;
+=======
+	<button type="button" class="close" data-dismiss="alert">
+		&times;
+>>>>>>> vidio eps 10
 =======
 	<button type="button" class="close" data-dismiss="alert">
 		&times;
@@ -25,11 +30,14 @@
 	<strong>Failed !</strong>Gagal di Update.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<button type="button" class="close" data-dismiss="alert">&times;
 	</button>
 	</div>
 	@endif
 =======
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 	<button type="button" class="close" data-dismiss="alert">
@@ -39,6 +47,9 @@
 	@endif
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> vidio eps 10
+=======
 >>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
@@ -55,9 +66,14 @@
 						class="form-control {{$errors->has('name')?'is-invalid':''}}"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						value="{{ old('name',$dt->name) }}" 
 						id="iName" placeholder="Name" required>
 
+=======
+						value="{{ old('name',$dt->name) }}"
+						id="iName" placeholder="Name" required>
+>>>>>>> vidio eps 10
 =======
 						value="{{ old('name',$dt->name) }}"
 						id="iName" placeholder="Name" required>
@@ -79,7 +95,10 @@
 						id="iName" placeholder="Name" required>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
@@ -130,7 +149,10 @@
 </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
