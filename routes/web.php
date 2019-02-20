@@ -25,6 +25,7 @@ Route::get('/', function(){
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			Route::get('/','UserController@daftar')->name('admin.user')->middleware('akses.admin');
 
 			Route::get('/add','UserController@add')->name('admin.user.add')->middleware('akses.admin');
@@ -39,12 +40,17 @@ Route::get('/', function(){
 >>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
+=======
+>>>>>>> vidio eps 10
 			Route::get('/','UserController@daftar')->name('admin.user');
 			Route::get('/setting','UserSettingController@form')->name('admin.user.setting');
 			Route::post('/setting','UserSettingController@update');
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> vidio eps 10
+=======
 >>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
@@ -61,7 +67,11 @@ Auth::routes();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Route::any('register', function(){ return abort(404); });
+=======
+
+>>>>>>> vidio eps 10
 =======
 
 >>>>>>> vidio eps 10

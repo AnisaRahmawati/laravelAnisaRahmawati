@@ -10,6 +10,10 @@ class UserController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> vidio eps 10
 =======
 
 >>>>>>> vidio eps 10
@@ -25,6 +29,7 @@ class UserController extends Controller
     	$data = User::where('name','like',"%{$req->keyword}%")->paginate(10);
     	return view('admin.pages.user.daftar',['data'=>$data]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +60,8 @@ if($result->save()){
         return back()->with('result','fail')->withInput();
     }
 }
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
