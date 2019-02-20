@@ -60,7 +60,10 @@ class Kernel extends HttpKernel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'akses.admin'=>\App\Http\Middleware\AksesAdmin::class,
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======

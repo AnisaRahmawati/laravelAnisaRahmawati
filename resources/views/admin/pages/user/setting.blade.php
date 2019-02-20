@@ -11,7 +11,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<button type="button" class="close" data-dismiss="alert">&times;
+=======
+	<button type="button" class="close" data-dismiss="alert">
+		&times;
+>>>>>>> vidio eps 10
 =======
 	<button type="button" class="close" data-dismiss="alert">
 		&times;
@@ -37,11 +42,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<button type="button" class="close" data-dismiss="alert">&times;
 	</button>
 	</div>
 	@endif
 =======
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
@@ -57,6 +65,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> vidio eps 10
+=======
 >>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
@@ -79,9 +90,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						value="{{ old('name',$dt->name) }}" 
 						id="iName" placeholder="Name" required>
 
+=======
+						value="{{ old('name',$dt->name) }}"
+						id="iName" placeholder="Name" required>
+>>>>>>> vidio eps 10
 =======
 						value="{{ old('name',$dt->name) }}"
 						id="iName" placeholder="Name" required>
@@ -113,7 +129,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
@@ -170,7 +189,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
