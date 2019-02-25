@@ -28,9 +28,12 @@
       	@yield('content')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         </div>
 =======
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
         <div class="card-body">
@@ -65,6 +68,9 @@
       </div>
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> vidio eps 10
+=======
 >>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10

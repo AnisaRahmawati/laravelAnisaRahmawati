@@ -17,8 +17,13 @@ Route::get('/', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Route::group(['prefix'=>'admin','middleware'=>['auth']],function(){
 
+=======
+Route::group(['middleware'=>['auth']], function(){
+Route::prefix('admin')->group(function(){
+>>>>>>> vidio eps 10
 =======
 Route::group(['middleware'=>['auth']], function(){
 Route::prefix('admin')->group(function(){
@@ -31,6 +36,7 @@ Route::get('/', function(){
 		return view('admin.pages.dashboard');
 	})->name('admin.home');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 /* User */
@@ -52,10 +58,15 @@ Route::get('/', function(){
 	Route::prefix('user')->group(function(){
 			Route::get('/','UserController@daftar')->name('admin.user');
 >>>>>>> vidio eps 10
+=======
+	Route::prefix('user')->group(function(){
+			Route::get('/','UserController@daftar')->name('admin.user');
+>>>>>>> vidio eps 10
 			Route::get('/setting','UserSettingController@form')->name('admin.user.setting');
 			Route::post('/setting','UserSettingController@update');
 
 		});
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -63,6 +74,8 @@ Route::get('/', function(){
 
 Route::group(['prefix'=>'kategori','middleware'=>'akses.admin'], function(){
 	Route::get('/','KategoriController@daftar')->name('admin.kategori');
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
@@ -76,7 +89,11 @@ Auth::routes();
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Route::any('register', function(){ return abort(404); });
+=======
+
+>>>>>>> vidio eps 10
 =======
 
 >>>>>>> vidio eps 10
