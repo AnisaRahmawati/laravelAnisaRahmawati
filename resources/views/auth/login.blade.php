@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 @extends('auth.main')
 @section('title','Login')
@@ -46,6 +47,8 @@
           </div>
         </div>
 =======
+=======
+>>>>>>> vidio eps 10
 @extends('layouts.app')
 
 @section('content')
@@ -113,6 +116,9 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+>>>>>>> vidio eps 10
+=======
 >>>>>>> vidio eps 10
 </div>
 @endsection

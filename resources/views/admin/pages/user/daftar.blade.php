@@ -4,6 +4,7 @@
 <h1>User</h1>
 <hr>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 @if(session('result') == 'success')
 <div class="alert alert-success alert-dismissible fade show">
@@ -46,10 +47,15 @@
 		<a href="{{ route('admin.user.add')}}" class="btn btn-primary">[+] Tambah</a>
 </div>
 =======
+=======
+>>>>>>> vidio eps 10
 <div class="row">
 	<div class="col-md-6 mb-3">
 		<a href="#" class="btn btn-primary">[+] Tambah</a>
 		</div>
+<<<<<<< HEAD
+>>>>>>> vidio eps 10
+=======
 >>>>>>> vidio eps 10
 
 		<div class="col-md-6 mb-3">
@@ -77,8 +83,12 @@
 <table class="table table-striped mb-3">
 	<tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		<th>Name</th><th>Email</th><th>Akses</th><th>&nbsp;</th>
+=======
+		<th>Name</th><th>Email</th><th>&nbsp;</th>
+>>>>>>> vidio eps 10
 =======
 		<th>Name</th><th>Email</th><th>&nbsp;</th>
 >>>>>>> vidio eps 10
@@ -88,6 +98,7 @@
 		<td>{{ $dt->name }}</td>
 		<td>{{ $dt->email}}</td>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		<td>{{ $dt->akses}}</td>
 
@@ -95,6 +106,11 @@
 			<a href="{{ route('admin.user.edit',['id'=>$dt->id]) }}" class="btn btn-success btn-sm">
 			
 			<i class="fa fa-w fa-edit "></i>
+=======
+		<td>
+			<a href="#" class="btn btn-success btn-sm">
+				<i class="fa fa-w fa-edit "></i>
+>>>>>>> vidio eps 10
 =======
 		<td>
 			<a href="#" class="btn btn-success btn-sm">
@@ -115,13 +131,17 @@
 
 </table>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 {{
 	$data->appends( request()->only('keyword'))
 	->links('vendor.pagination.bootstrap-4')
 }}
+<<<<<<< HEAD
 <<<<<<< HEAD
 @endsection
 
@@ -172,6 +192,9 @@
 </script>
 
 @endpush
+=======
+@endsection
+>>>>>>> vidio eps 10
 =======
 @endsection
 >>>>>>> vidio eps 10

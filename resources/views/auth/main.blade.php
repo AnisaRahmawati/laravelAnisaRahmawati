@@ -27,9 +27,12 @@
     <div class="container">
       	@yield('content')
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         </div>
 =======
+=======
+>>>>>>> vidio eps 10
         <div class="card-body">
           <form>
             <div class="form-group">
@@ -61,6 +64,9 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
+>>>>>>> vidio eps 10
+=======
 >>>>>>> vidio eps 10
 
     <!-- Bootstrap core JavaScript-->
