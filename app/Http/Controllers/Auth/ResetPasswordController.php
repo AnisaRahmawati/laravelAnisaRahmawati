@@ -26,43 +26,6 @@ class ResetPasswordController extends Controller
      * @var string
      */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-    protected $redirectTo = '/home';
-
-    
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
 
     /**
      * Create a new controller instance.
@@ -75,30 +38,7 @@ class ResetPasswordController extends Controller
     }
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
      protected function redirectTo()
     {
         return route('admin.home');

@@ -56,24 +56,8 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         'akses.admin'=>\App\Http\Middleware\AksesAdmin::class,
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
+
     ];
 }

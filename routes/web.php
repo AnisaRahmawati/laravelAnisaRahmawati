@@ -15,60 +15,32 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['middleware'=>['auth']], function(){
-Route::prefix('admin')->group(function(){
+Route::group(['prefix'=>'admin','middleware'=>['auth']],function(){
+
 Route::get('/', function(){
 		return view('admin.pages.dashboard');
 	})->name('admin.home');
 
+/* User */
 	Route::prefix('user')->group(function(){
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 			Route::get('/','UserController@daftar')->name('admin.user')->middleware('akses.admin');
+			Route::delete('/','UserController@delete')->middleware('akses.admin');
 
-			Route::get('/add','UserController@add')->name('admin.user.add')->middleware('akses.admin');
-			Route::post('/add','UserController@save')->middleware('akses.admin');
+			route::get('/add','UserController@add')->name('admin.user.add')->middleware('akses.admin');
+			
+			route::get('/edit/{id}','UserController@edit')->name('admin.user.edit')->middleware('akses.admin');
+
 
 			Route::get('/setting','UserSettingController@form')->name('admin.user.setting');
 			Route::post('/setting','UserSettingController@update');
 
-
-=======
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-			Route::get('/','UserController@daftar')->name('admin.user');
-			Route::get('/setting','UserSettingController@form')->name('admin.user.setting');
-			Route::post('/setting','UserSettingController@update');
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
-=======
->>>>>>> vidio eps 10
 		});
+
+	/* kategori */
+
+Route::group(['prefix'=>'kategori','middleware'=>'akses.admin'], function(){
+	Route::get('/','KategoriController@daftar')->name('admin.kategori');
 	});
 
 });
@@ -76,28 +48,4 @@ Route::get('/', function(){
 
 Auth::routes();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Route::any('register', function(){ return abort(404); });
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10

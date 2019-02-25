@@ -26,42 +26,7 @@ class LoginController extends Controller
      * @var string
      */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    protected $redirectTo = '/home';
 
-   
->>>>>>> vidio eps 10
-=======
-    protected $redirectTo = '/home';
-
-   
->>>>>>> vidio eps 10
-=======
-    protected $redirectTo = '/home';
-
-   
->>>>>>> vidio eps 10
-=======
-    protected $redirectTo = '/home';
-
-   
->>>>>>> vidio eps 10
-=======
-    protected $redirectTo = '/home';
-
-   
->>>>>>> vidio eps 10
-=======
-    protected $redirectTo = '/home';
-
-   
->>>>>>> vidio eps 10
 
     /**
      * Create a new controller instance.
@@ -73,30 +38,7 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
-=======
-
->>>>>>> vidio eps 10
     
     protected function redirectTo()
     {
