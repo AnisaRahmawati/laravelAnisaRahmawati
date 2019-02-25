@@ -5,17 +5,21 @@
             <span>Dashboard</span>
           </a>
         </li>
+<<<<<<< HEAD
 
 
 
         @if(Auth::user()->akses == 'admin')
 
+=======
+>>>>>>> vidio eps 10
          <li class="nav-item">
           <a class="nav-link" href="{{route('admin.user')}}">
             <i class="fas fa-fw fa-users"></i>
             <span>User</span>
           </a>
         </li>
+<<<<<<< HEAD
 
 <li class="nav-item">
           <a class="nav-link" href="{{route('admin.kategori')}}">
@@ -26,4 +30,6 @@
         @endif
 
 
+=======
+>>>>>>> vidio eps 10
       </ul>

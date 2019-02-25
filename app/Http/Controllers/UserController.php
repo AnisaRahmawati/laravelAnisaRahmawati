@@ -14,6 +14,7 @@ class UserController extends Controller
     	$data = User::where('name','like',"%{$req->keyword}%")->paginate(10);
     	return view('admin.pages.user.daftar',['data'=>$data]);
     }
+<<<<<<< HEAD
 
 
     public function add()
@@ -98,4 +99,6 @@ public function delete(Request $req)
         return back()->with('result','fail-delete');
     }
 }
+=======
+>>>>>>> vidio eps 10
 }

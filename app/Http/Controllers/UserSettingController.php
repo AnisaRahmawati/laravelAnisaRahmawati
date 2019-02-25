@@ -11,18 +11,27 @@ class UserSettingController extends Controller
     public function form()
     {
 
+<<<<<<< HEAD
         $data = User::where('id',Auth::id())->first();
 
     return view('admin.pages.user.setting',['dt'=>$data]);
+=======
+    	$data = User::where('id' ,Auth::id())->first();
+    	return view('admin.pages.user.setting',['dt'=>$data]);
+>>>>>>> vidio eps 10
     }
 
     public function update(Request $req)
     {
     	$id = Auth::id();
     	\Validator::make($req->all(), [
+<<<<<<< HEAD
 
     		'name'=>'required|between:3,100',
 
+=======
+    		'name'=>'required|between:3,10',
+>>>>>>> vidio eps 10
     		'email'=>'required|email|unique:users,email,'.$id,
     		'password'=>'nullable|min:6',
     		'repassword'=>'same:password',
@@ -46,7 +55,10 @@ class UserSettingController extends Controller
         if($result){
             return back()->with('result','success');
         } else {
+<<<<<<< HEAD
 
+=======
+>>>>>>> vidio eps 10
             return back()->with('result','fail');
 
         }

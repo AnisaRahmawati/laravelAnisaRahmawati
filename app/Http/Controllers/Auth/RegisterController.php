@@ -28,6 +28,10 @@ class RegisterController extends Controller
      * @var string
      */
 
+<<<<<<< HEAD
+=======
+    protected $redirectTo = '/home';
+>>>>>>> vidio eps 10
 
 
     /**
