@@ -19,6 +19,7 @@ class UserController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
     public function add()
@@ -103,6 +104,8 @@ public function delete(Request $req)
         return back()->with('result','fail-delete');
     }
 }
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
