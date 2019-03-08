@@ -32,6 +32,10 @@ class RegisterController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    protected $redirectTo = '/home';
+>>>>>>> vidio eps 10
 =======
     protected $redirectTo = '/home';
 >>>>>>> vidio eps 10
