@@ -17,9 +17,14 @@ class UserSettingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $data = User::where('id',Auth::id())->first();
 
     return view('admin.pages.user.setting',['dt'=>$data]);
+=======
+    	$data = User::where('id' ,Auth::id())->first();
+    	return view('admin.pages.user.setting',['dt'=>$data]);
+>>>>>>> vidio eps 10
 =======
     	$data = User::where('id' ,Auth::id())->first();
     	return view('admin.pages.user.setting',['dt'=>$data]);
@@ -56,9 +61,13 @@ class UserSettingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     		'name'=>'required|between:3,100',
 
+=======
+    		'name'=>'required|between:3,10',
+>>>>>>> vidio eps 10
 =======
     		'name'=>'required|between:3,10',
 >>>>>>> vidio eps 10
@@ -106,7 +115,10 @@ class UserSettingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======

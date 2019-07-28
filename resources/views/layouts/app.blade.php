@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ul class="dropdown-menu" role="menu">
      <li>
        <a href="{{ route('logout') }}"
@@ -67,6 +68,8 @@
         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
           {{ csrf_field() }}
 =======
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
@@ -92,6 +95,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> vidio eps 10
+=======
 >>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
