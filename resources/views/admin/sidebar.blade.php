@@ -13,11 +13,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
         @if(Auth::user()->akses == 'admin')
 
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
@@ -48,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <li class="nav-item">
           <a class="nav-link" href="{{route('admin.kategori')}}">
@@ -58,6 +62,8 @@
         @endif
 
 
+=======
+>>>>>>> vidio eps 10
 =======
 >>>>>>> vidio eps 10
 =======
